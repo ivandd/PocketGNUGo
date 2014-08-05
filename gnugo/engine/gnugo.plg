@@ -1,0 +1,77 @@
+--------------------Konfiguration: gnugo - Win32 Debug--------------------
+Begining build with project "D:\current\source-gnugo\gnugo-2.6\engine\gnugo.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-Bit C/C++-Compiler für 80x86" with flags "/nologo /MLd /W3 /GX /Od /I "." /I ".." /I "..\sgf" /I "..\interface" /I "..\patterns" /D "_DEBUG" /D "HAVE_CONFIG_H" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "BUILDING_GNUGO_ENGINE" /Fp"Debug/gnugo.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /ZI /GZ /c "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/gnugo.bsc" "
+			"COFF-Linker für 80x86" with flags "..\interface\Debug\interface.lib ..\patterns\Debug\patterns.lib ..\utils\Debug\utils.lib ..\sgf\Debug\sgf.lib wsock32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/gnugo.pdb" /debug /machine:I386 /out:"Debug/gnugo.exe" /pdbtype:sept "
+			"Benutzerdefiniertes Erstellen" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "D:\TEMP\RSP3B.tmp" with contents </nologo /MLd /W3 /GX /Od /I "." /I ".." /I "..\sgf" /I "..\interface" /I "..\patterns" /D "_DEBUG" /D "HAVE_CONFIG_H" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "BUILDING_GNUGO_ENGINE" /Fp"Debug/gnugo.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /ZI /GZ /c 
+"D:\current\source-gnugo\gnugo-2.6\engine\attdef.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\dragon.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\filllib.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\fuseki.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\genmove.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\globals.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\hash.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\matchpat.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\moyo.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\optics.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\reading.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\semeai.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\sethand.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\shapes.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\showbord.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\utils.c"
+"D:\current\source-gnugo\gnugo-2.6\engine\worm.c"
+>
+Creating command line "cl.exe @D:\TEMP\RSP3B.tmp" 
+Creating temp file "D:\TEMP\RSP3C.tmp" with contents <..\interface\Debug\interface.lib ..\patterns\Debug\patterns.lib ..\utils\Debug\utils.lib ..\sgf\Debug\sgf.lib wsock32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/gnugo.pdb" /debug /machine:I386 /out:"Debug/gnugo.exe" /pdbtype:sept 
+".\Debug\attdef.obj"
+".\Debug\dragon.obj"
+".\Debug\filllib.obj"
+".\Debug\fuseki.obj"
+".\Debug\genmove.obj"
+".\Debug\globals.obj"
+".\Debug\hash.obj"
+".\Debug\matchpat.obj"
+".\Debug\moyo.obj"
+".\Debug\optics.obj"
+".\Debug\reading.obj"
+".\Debug\semeai.obj"
+".\Debug\sethand.obj"
+".\Debug\shapes.obj"
+".\Debug\showbord.obj"
+".\Debug\utils.obj"
+".\Debug\worm.obj">
+Creating command line "link.exe @D:\TEMP\RSP3C.tmp" 
+Kompilierung läuft...
+Befehlszeilenwarnung D4002 : Unbekannte Option '/ZI' wird ignoriert
+Befehlszeilenwarnung D4002 : Unbekannte Option '/GZ' wird ignoriert
+attdef.c
+dragon.c
+filllib.c
+fuseki.c
+genmove.c
+globals.c
+hash.c
+matchpat.c
+moyo.c
+optics.c
+D:\current\source-gnugo\gnugo-2.6\engine\optics.c(31) : fatal error C1083: Include-Datei kann nicht geoeffnet werden: 'eyes.c': No such file or directory
+reading.c
+semeai.c
+sethand.c
+shapes.c
+showbord.c
+utils.c
+worm.c
+Fehler beim Ausführen von cl.exe.
+
+
+
+gnugo.exe - 1 Fehler, 0 Warnung(en)

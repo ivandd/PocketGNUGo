@@ -1,0 +1,1002 @@
+# eMbedded Visual C++ Dependency File, included by Helloworld.vcn
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\attdef.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\attdef.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\attdef.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\attdef.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\patterns\connections.c : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\patterns\patterns.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\patterns\connections.c : \
+	".\gnugo\patterns\patterns.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\patterns\connections.c : \
+	".\gnugo\patterns\patterns.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\patterns\connections.c : \
+	".\gnugo\patterns\patterns.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\dragon.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\dragon.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\dragon.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\dragon.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\filllib.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\filllib.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\filllib.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\filllib.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\fuseki.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\fuseki.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\fuseki.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\fuseki.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\genmove.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\sgf\sgfana.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\genmove.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\genmove.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\genmove.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\globals.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\globals.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\globals.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\globals.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\interface\gmp.c : \
+	".\gnugo\config.h"\
+	".\gnugo\interface\gmp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\interface\gmp.c : \
+	".\gnugo\interface\gmp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\interface\gmp.c : \
+	".\gnugo\interface\gmp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\interface\gmp.c : \
+	".\gnugo\interface\gmp.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\hash.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\hash.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\hash.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\hash.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\patterns\helpers.c : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\patterns\patterns.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\patterns\helpers.c : \
+	".\gnugo\patterns\patterns.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\patterns\helpers.c : \
+	".\gnugo\patterns\patterns.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\patterns\helpers.c : \
+	".\gnugo\patterns\patterns.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\interface\interface.c : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\engine\main.h"\
+	".\gnugo\interface\interface.h"\
+	".\gnugo\sgf\sgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\interface\interface.c : \
+	".\gnugo\interface\interface.h"\
+	".\gnugo\sgf\sgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\interface\interface.c : \
+	".\gnugo\interface\interface.h"\
+	".\gnugo\sgf\sgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\interface\interface.c : \
+	".\gnugo\interface\interface.h"\
+	".\gnugo\sgf\sgf.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\matchpat.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\patterns\patterns.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\matchpat.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\matchpat.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\matchpat.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\moyo.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\interface\interface.h"\
+	".\gnugo\sgf\sgfana.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\moyo.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\moyo.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\moyo.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\optics.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\eyes.c"\
+	".\gnugo\patterns\eyes.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\optics.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\optics.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\optics.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\reading.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\reading.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\reading.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\reading.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\semeai.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\semeai.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\semeai.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\semeai.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\sethand.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\sgf\sgf.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\sethand.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\sethand.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\sethand.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\sgf\sgf.c : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\engine\main.h"\
+	".\gnugo\interface\interface.h"\
+	".\gnugo\sgf\sgf.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\sgf\sgf.c : \
+	".\gnugo\sgf\sgf.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\sgf\sgf.c : \
+	".\gnugo\sgf\sgf.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\sgf\sgf.c : \
+	".\gnugo\sgf\sgf.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\sgf\sgf_utils.c : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\interface\interface.h"\
+	".\gnugo\sgf\sgf_properties.h"\
+	".\gnugo\sgf\sgf_utils.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_read.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\sgf\sgf_utils.c : \
+	".\gnugo\sgf\sgf_properties.h"\
+	".\gnugo\sgf\sgf_utils.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_read.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\sgf\sgf_utils.c : \
+	".\gnugo\sgf\sgf_properties.h"\
+	".\gnugo\sgf\sgf_utils.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_read.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\sgf\sgf_utils.c : \
+	".\gnugo\sgf\sgf_properties.h"\
+	".\gnugo\sgf\sgf_utils.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_read.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\sgf\sgfana.c : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\interface\interface.h"\
+	".\gnugo\sgf\sgf_properties.h"\
+	".\gnugo\sgf\sgfana.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\sgf\sgfana.c : \
+	".\gnugo\sgf\sgf_properties.h"\
+	".\gnugo\sgf\sgfana.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\sgf\sgfana.c : \
+	".\gnugo\sgf\sgf_properties.h"\
+	".\gnugo\sgf\sgfana.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\sgf\sgfana.c : \
+	".\gnugo\sgf\sgf_properties.h"\
+	".\gnugo\sgf\sgfana.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\sgf\sgfgen.c : \
+	".\gnugo\utils\getopt.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\sgf\sgfgen.c : \
+	".\gnugo\utils\getopt.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\sgf\sgfgen.c : \
+	".\gnugo\utils\getopt.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\sgf\sgfgen.c : \
+	".\gnugo\utils\getopt.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\shapes.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\patterns\patterns.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\shapes.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\shapes.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\shapes.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\showbord.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\showbord.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\showbord.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\showbord.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\sgf\ttsgf.c : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\sgf\sgf_properties.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\sgf\ttsgf.c : \
+	".\gnugo\sgf\sgf_properties.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\sgf\ttsgf.c : \
+	".\gnugo\sgf\sgf_properties.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\sgf\ttsgf.c : \
+	".\gnugo\sgf\sgf_properties.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\sgf\ttsgf_read.c : \
+	".\gnugo\config.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_read.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\sgf\ttsgf_read.c : \
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_read.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\sgf\ttsgf_read.c : \
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_read.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\sgf\ttsgf_read.c : \
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_read.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\sgf\ttsgf_write.c : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\interface\interface.h"\
+	".\gnugo\sgf\sgfana.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_write.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\sgf\ttsgf_write.c : \
+	".\gnugo\sgf\sgfana.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_write.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\sgf\ttsgf_write.c : \
+	".\gnugo\sgf\sgfana.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_write.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\sgf\ttsgf_write.c : \
+	".\gnugo\sgf\sgfana.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_write.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\utils.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\interface\interface.h"\
+	".\gnugo\sgf\ttsgf.h"\
+	".\gnugo\sgf\ttsgf_write.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\utils.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\utils.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\utils.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\gnugo\engine\worm.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\gnugo\engine\worm.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\gnugo\engine\worm.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\gnugo\engine\worm.cpp : \
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\Helloworld.cpp : \
+	".\gnugo\config.h"\
+	".\gnugo\engine\hash.h"\
+	".\gnugo\engine\liberty.h"\
+	".\gnugo\interface\interface.h"\
+	".\Helloworld.h"\
+	".\StdAfx.h"\
+	{$(INCLUDE)}"aygshell.h"\
+	{$(INCLUDE)}"sipapi.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\Helloworld.cpp : \
+	".\Helloworld.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\Helloworld.cpp : \
+	".\Helloworld.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\Helloworld.cpp : \
+	".\Helloworld.h"\
+	".\StdAfx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\Helloworld.rc : \
+	".\Helloworld.ico"\
+	".\newres.h"\
+	".\winver.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\Helloworld.rc : \
+	".\Helloworld.ico"\
+	".\newres.h"\
+	".\winver.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\Helloworld.rc : \
+	".\Helloworld.ico"\
+	".\newres.h"\
+	".\winver.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\Helloworld.rc : \
+	".\Helloworld.ico"\
+	".\newres.h"\
+	".\winver.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Helloworld - Win32 (WCE MIPS) Release"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE SH3) Release"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Release"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Helloworld - Win32 (WCE ARM) Debug"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ENDIF 
+
